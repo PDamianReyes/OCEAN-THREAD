@@ -1,0 +1,22 @@
+{
+  "name": "ocean-thread",
+  "version": "1.0.0",
+  "description": "Ocean Thread project for Hack The Ocean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PDamianReyes/OCEAN-THREAD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PDamianReyes/OCEAN-THREAD/issues"
+  },
+  "homepage": "https://github.com/PDamianReyes/OCEAN-THREAD#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
