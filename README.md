@@ -1,4 +1,16 @@
-# OCEAN-THREAD
-Frontend OCEAN THREAD
-Esta es la plantilla que nos pusimos de acuerdo para trabajar nos podemos dividir el trabajo por secciones y al final ya les pasamos todo completo de nuestro lado a los de backend
-solo queria que se dieran una idea de lo que podria ser ningun cambio es definitivo pero creo que podria ir quedando bien así 
+# OCEAN TRHEAD
+
+Proyecto desarrollado para el hackaton Hack the Ocean de LaunchX 2022.
+
+# Integrantes del equipo
+
+| Integrante | Correo de LaunchX | Perfil de GitHub |
+| :-------------: |:-------------:| :-----:|
+|`Ricardo Aldahir Corona`|launchx07686@innovaccion.mx|<a href="https://github.com/{Aquí el nombre de tu perfil}" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-{Aquí el nombre de tu perfil}-blue?"></a>|
+|`José Manuel Estrada`|launchx07221@innovaccion.mx|<a href="https://github.com/{Aquí el nombre de tu perfil}" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-{Aquí el nombre de tu perfil}-blue?"></a>|
+|`Ramón Alejandro Gutiérrez`|launchx03961@innovaccion.mx|<a href="https://github.com/RAlexGC" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-RAlexGC-blue?"></a>|
+|`Luis Eduardo Martínez [Líder]`|launchx04928@innovaccion.mx|<a href="https://github.com/leduardomp" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-{Aquí el nombre de tu repo}-blue?"></a>|
+|`Pedro Damián Reyes`|launchx07001@innovaccion.mx|<a href="https://github.com/PDamianReyes" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-PDamianReyes-blue?"></a>|
+
+# Planteamiento del problema
+
