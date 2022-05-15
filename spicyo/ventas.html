@@ -53,7 +53,7 @@
               <a href="index.html">Home</a>
             </li>
             <li class="active">
-              <a href="Ventas.html">Ventas</a>
+              <a href="Ventas.html">Sales</a>
             </li>
             <li>
               <a href="recipe.html">Recipe</a>
@@ -97,7 +97,7 @@
                           style="margin-right: 15px"
                           src="images/mail_icon.png"
                           alt="#"
-                        /><a href="#">demo@gmail.com</a>
+                        /><a href="#">oceanthread@gmail.com</a>
                       </li>
                       <li class="dinone">
                         <img
@@ -109,7 +109,7 @@
                           "
                           src="images/location_icon.png"
                           alt="#"
-                        /><a href="#">104 New york , USA</a>
+                        /><a href="#">Mexico City, MX</a>
                       </li>
                       <li class="button_user">
                         <a class="button active" href="#">Login</a
@@ -141,7 +141,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="title">
-                  <h2>Registro de embaraciones y redes</h2>
+                  <h2>Sales</h2>
                 </div>
               </div>
             </div>
@@ -153,50 +153,63 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="title">
-                  <span>Registro de embarcaciones y redes</span>
+                  <span>Register of ships and nets</span>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Accordion Item #1
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Ship registration
                         </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
+                      </h5>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Accordion Item #3
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <form>
+                          <div class="form-group ">
+                            <label for="shipID">Ship ID</label>
+                            <input type="text" class="form-control border border-dark rounded" id="shipID" placeholder="Ship ID">
+                          </div>
+                          <div class="form-group">
+                            <label for="shipName">Ship's name</label>
+                            <input type="text" class="form-control border border-dark rounded" id="shipName" placeholder="Ship's name">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                       </div>
                     </div>
                   </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Net registration
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <form>
+                          <div class="form-group ">
+                            <label for="shipIDNR">Ship ID</label>
+                            <input type="text" class="form-control border border-dark rounded" id="shipIDNR" placeholder="Ship ID">
+                          </div>
+                          <div class="form-group">
+                            <label for="netID">Net ID</label>
+                            <input type="text" class="form-control border border-dark rounded" id="netID" placeholder="Net ID">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 class="col-xl-5 col-lg-5 col-md-10 col-sm-12 about_img_boxpdnt"
@@ -211,60 +224,9 @@
         <!-- end about -->
 
         <!-- footer -->
-        <fooetr>
+        <footer>
           <div class="footer">
             <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-12">
-                  <h2>Request A<strong class="white"> Call Back</strong></h2>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <form class="main_form">
-                    <div class="row">
-                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <input
-                          class="form-control"
-                          placeholder="Name"
-                          type="text"
-                          name="Name"
-                        />
-                      </div>
-                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <input
-                          class="form-control"
-                          placeholder="Email"
-                          type="text"
-                          name="Email"
-                        />
-                      </div>
-                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <input
-                          class="form-control"
-                          placeholder="Phone"
-                          type="text"
-                          name="Phone"
-                        />
-                      </div>
-                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <textarea
-                          class="textarea"
-                          placeholder="Message"
-                          type="text"
-                          name="Message"
-                        ></textarea>
-                      </div>
-                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <button class="send">Send</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="img-box">
-                    <figure><img src="images/img.jpg" alt="img" /></figure>
-                  </div>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-12">
                   <div class="footer_logo">
