@@ -35,7 +35,7 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div> 
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
@@ -58,7 +58,7 @@
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <a class="btn btn-primary btn-user btn-block" onclick="login()">
                                             Login
                                         </a>
                                         <hr>
@@ -98,6 +98,64 @@
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
+    <script src="../js/util.js"></script>
+
+    <script>
+
+        function login() {
+
+            let usuario = document.getElementById("exampleInputEmail").value;
+            let password = document.getElementById("exampleInputPassword").value;
+
+            if (usuario && password) {
+                fetch('http://147.182.237.110:5000/auth/login', {
+                    //fetch('http://localhost:5000/auth/login', {
+                    method: 'post',
+                    headers: new Headers({
+                        //'Authorization': 'Basic ' + btoa('username:password'),
+                        'Access-Control-Allow-Origin': '*',
+                        'Content-Type': 'application/json'
+                    }),
+                    body: JSON.stringify({
+                        "username": usuario,
+                        "password": password
+                    })
+                })
+                    .then(function (res) { return res.json(); })
+                    .then(function (data) {
+                        console.log(data)
+
+                        if (data.idError) {
+                            alert(data.message)
+                        } else {
+                            document.cookie = JSON.stringify(data);
+                            let cookie = JSON.parse(document.cookie);
+                            console.log(cookie.accessToken);
+
+                            let payload = parseJwt(cookie.accessToken);
+                            console.log(payload)
+
+                            switch (payload.rol) {
+                                case 1: window.location.href = "index.html"; break; //vendedor
+                                case 2: window.location.href = "index.html"; break; //reciclador
+                                case 3: window.location.href = "index.html"; break; //embarcacion
+                                case 4: window.location.href = "index.html"; break; //auditor
+                                case 5: window.location.href = "index.html"; break; //administrador
+                                default: alert("datos erroneos"); document.cookie = ""; console.log(document.cookie); break;
+                            }
+                        }
+
+                    }).catch(err => {
+                        alert(err);
+                    })
+            }else{
+                alert("Debe ingresar usuario y password")
+            }
+        }
+
+
+
+    </script>
 </body>
 
 </html>
