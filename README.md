@@ -1,7 +1,7 @@
 # OCEAN TRHEAD
 
 Proyecto desarrollado para el hackaton Hack the Ocean de LaunchX 2022.
-
+|:----:|
 <img src="images/LogoREADME.png">
 
 # Integrantes del equipo
