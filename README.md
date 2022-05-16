@@ -2,7 +2,7 @@
 
 Proyecto desarrollado para el hackaton Hack the Ocean de LaunchX 2022.
 
-<img src="images/Logo%20Pagina.png">
+<img src="images/LogoREADME.png">
 # Integrantes del equipo
 
 | Integrante | Correo de LaunchX | Perfil de GitHub |
@@ -25,4 +25,8 @@ El objetivo de estas iniciativas de transparencia es asegurar la sustentabilidad
 | :-------------: |:-------------:|
 |Global risks of labor abuse and illegal, unreported, and unregulated fishing|<a href="https://doi.org/10.1038/s41467-022-28916-2" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-Link-blue?"></a>|
 |Combatting illegal fishing through transparency initiatives|<a href="https://doi.org/10.1016/j.marpol.2022.104984" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-Link-blue?"></a>|
+
+# Estructura del proyecto
+
+
 
