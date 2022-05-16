@@ -2,6 +2,7 @@
 
 Proyecto desarrollado para el hackaton Hack the Ocean de LaunchX 2022.
 
+<img src="images/Logo%20Pagina.png">
 # Integrantes del equipo
 
 | Integrante | Correo de LaunchX | Perfil de GitHub |
