@@ -2,6 +2,11 @@
 
 Proyecto desarrollado para el hackaton Hack the Ocean de LaunchX 2022.
 
+### Este proyecto se desarrolló en dos partes, aquí se encuentra la parte de frontend, aquí debajo encontrarán el link al repositorio del backend
+
+<a href="https://github.com/leduardomp/hackTheOceanBack" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-Link_a_Backend-blue?"></a>
+
+
 <img src="images/LogoREADME.png">
 
 # Integrantes del equipo
