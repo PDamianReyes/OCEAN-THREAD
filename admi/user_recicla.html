@@ -193,10 +193,10 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Usuarios Supervisores</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Usuarios reciclador</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
                             data-toggle="modal" data-target="#exampleModal">
-                            <iclass="fas fa-user fa-sm text-white-50"></i> Crear supervisor
+                            <iclass="fas fa-user fa-sm text-white-50"></i> Crear reclicador
                         </a>
                     </div>
 
@@ -204,7 +204,7 @@
                     <div>
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Listado de supervisores</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Listado de reciclador</h6>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -386,7 +386,7 @@
                     }),
                     body: JSON.stringify({
                         "email": email,
-                        "idTipoUsuario": "4",
+                        "idTipoUsuario": "2",
                         "nombre": nombre,
                         "apPaterno": apPaterno,
                         "apMaterno": apMaterno,
@@ -425,8 +425,8 @@
 
             tablaGbl.clear().draw();
             let token = JSON.parse(document.cookie).accessToken;
-            fetch('http://147.182.237.110:5000/usuario/tipo/4', {
-            //fetch('http://localhost:5000/usuario/tipo/4', {
+            fetch('http://147.182.237.110:5000/usuario/tipo/2', {
+            //fetch('http://localhost:5000/usuario/tipo/1', {
                 method: 'GET',
                 headers: new Headers({
                     'Authorization': 'Basic ' + token,

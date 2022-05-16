@@ -31,8 +31,15 @@ function validaAcceso(idRol){
 
     let payload = parseJwt(JSON.parse(document.cookie).accessToken);
 
+    console.log(payload);
+
     if(payload.rol != idRol){
         location.replace("login.html")
+    }
+
+    let campoNombre = document.getElementById("campoNombreUsuario")
+    if(campoNombre){
+        campoNombre.append(payload.username)
     }
 }
 
