@@ -20,5 +20,6 @@ El objetivo de estas iniciativas de transparencia es asegurar la sustentabilidad
 
 ### Referencias para conocer más del tema
 
-``
+<a href="https://github.com/RAlexGC" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-RAlexGC-blue?"></a>
+<a href="https://github.com/RAlexGC" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%94%97link-RAlexGC-blue?"></a>
 
