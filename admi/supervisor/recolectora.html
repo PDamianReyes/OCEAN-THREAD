@@ -29,7 +29,7 @@
 </head>
 <!-- body -->
 
-<body class="main-layout about_page">
+<body class="main-layout about_page" onload="validaAcceso(4)">
   <!-- loader  -->
   <div class="loader_bg">
     <div class="loader"><img src="../../images/loading.gif" alt="" /></div>
@@ -97,7 +97,7 @@
                           " src="../../images/location_icon.png" alt="#" /><a href="#">Mexico City, MX</a>
                     </li>
                     <li class="button_user">
-                      <a class="button active" href="#">Login</a><a class="button" href="#">Register</a>
+                      <a class="button active" onclick="logoutSupervisor()">Logout</a>
                     </li>
                     <li>
                       <img style="margin-right: 15px" src="../../images/search_icon.png" alt="#" />
@@ -257,6 +257,9 @@
   <script src="../../js/jquery.mCustomScrollbar.concat.min.js"></script>
 
   <script src="../../js/jquery-3.0.0.min.js"></script>
+
+  <script src="../../js/util.js"></script>
+
   <script type="text/javascript">
     $(document).ready(function () {
       $("#sidebar").mCustomScrollbar({
@@ -275,7 +278,16 @@
         $("a[aria-expanded=true]").attr("aria-expanded", "false");
       });
     });
+
+    function logoutSupervisor(){
+      console.log("salir")
+      document.cookie = null;
+    
+      location.replace("../login.html")
+    }
   </script>
+
+
 </body>
 
 </html>
