@@ -14,3 +14,11 @@ Proyecto desarrollado para el hackaton Hack the Ocean de LaunchX 2022.
 
 # Planteamiento del problema
 
+En las últimas décadas, los esfuerzos por combatir la pesca ilegal, no reportada y no regulada, han dado pie al desarrollo de iniciativas para mejorar la transparencia en la industria alimentaria de productos del mar, a través de acuerdos internacionales, regulaciones gubernamentales nacionales, e iniciativas privadas voluntarias.
+
+El objetivo de estas iniciativas de transparencia es asegurar la sustentabilidad en las cadenas de suministro. Con nuestra propuesta se pretende aportar nuestro grano de arena a que esto sea posible, por medio del uso de recursos tecnológicos llevar un registro transparente y una certificación de que el recurso marítimo obtenido por nuestros afiliados es de procedencia completamente legal y sustentable.
+
+### Referencias para conocer más del tema
+
+``
+
